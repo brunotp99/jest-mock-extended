@@ -3,20 +3,18 @@
     "target": "es2017",
     "module": "commonjs",
     "declaration": true,
+    "rootDir": "src",
     "outDir": "lib/",
-    "lib": [
-      "es2017"
-    ],
+    "lib": ["es2017"],
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "alwaysStrict": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "types": ["node"]
   },
   "include": ["src"],
-  "exclude": [
-    "node_modules"
-  ]
+  "exclude": ["node_modules"]
 }
