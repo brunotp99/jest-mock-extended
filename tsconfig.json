@@ -5,7 +5,9 @@
     "declaration": true,
     "rootDir": "src",
     "outDir": "lib/",
-    "lib": ["es2017"],
+    "lib": [
+      "es2017"
+    ],
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -16,5 +18,7 @@
     "types": ["node"]
   },
   "include": ["src"],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }
